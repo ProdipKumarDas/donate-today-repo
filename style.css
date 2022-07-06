@@ -5,22 +5,36 @@ body{
 section{
     height: 500px;
     padding-bottom: 150px;
+   
+}
+.top-banar{
     background-image: url("images/donation3.jpg");
     background-size:100%;
 }
-.top-banner{
-   
+.home{
+    text-align:center;
+    width:50%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right:50%;
 }
+.home p{
+    text-align: justify;
+}
+
 h1{
     font-size: 60px;
-    color: white;
+    color:white ;
     text-align: center;
 }
 .anchor-button{
     text-decoration:none;
-    : center;
     background: linear-gradient(45deg, rgb(240, 74, 9), rgb(252, 255, 71));
     padding: 10px 40px;
     border-radius:10px;
     color: white;
     font-weight: 700;
+    align-content: center;
+.footer{
+    background-color:black;
+}
