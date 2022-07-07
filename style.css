@@ -9,6 +9,7 @@ section{
 .top-banar{
     background-image: url("images/donation3.jpg");
     background-size:100%;
+    text-align:center;
 }
 .home{
     text-align:center;
@@ -16,13 +17,14 @@ section{
     margin-left: 5%;
     padding-left: 2%;
     padding-right:50%;
+    
 }
-.home p{
-    text-align: justify;
+#people{
+    text-align: center;
+    color: white ; 
 }
-
-h1{
-    font-size: 60px;
+#help{
+    font-size: 80px;
     color:white ;
     text-align: center;
 }
@@ -34,30 +36,100 @@ h1{
     color: white;
     font-weight: 700;
     align-content: center;
+}
+.heading{
+    text-align:center;
+    font-size: 50px;
+    padding: 0px;
+}
+.para{
+text-align:center;
+padding: 0px;
+}
 
-.experience-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 10%;
+    margin-right:10%;
 }
-.experience-area h3{
-    color: orange;
+.container1 div{
+    padding: 5px;
+    flex-basis: 15%;
+    text-align: center;
+     margin-left: 10px;
+    margin-right: 10px;
+}
+.container1 .child10{
+
+    background:rgba(236, 220, 229, 0.268) ;
+}
+.container1 .child11{
+    background:rgba(240, 155, 155, 0.903);
+    border-color:black;
+    
+}
+.container1 .child12{
+    background:rgba(236, 220, 229, 0.268);
+}
+.container1 .child13{
+    background:rgba(236, 220, 229, 0.268);
+}
+.container1 .child14{
+    background:rgba(236, 220, 229, 0.268);
+}
+.amount{
+    align-content:center;
+  
+}
+#other{
+    text-align:center;
+    font-size: 25px;
+    padding: 0px;
+}
+#button{
+    background: linear-gradient(45deg, rgb(240, 74, 9), rgb(252, 255, 71));
+    padding: 20px 40px;
+    border-radius:5px;
+    color: white;
+    font-weight: 100px;
+    text-align:center;
+    
+    
+}
+.heading{
+    text-align:center;
+    font-size: 50px;
+    padding: 0px;
+}
+.para{
+text-align:center;
+padding: 0px;
 }
 
-.experience-area div{
-    box-shadow: 5px 7px 40px gray;
-    height: 80%;
-}
-#full-stack{
-    border-left: 7px solid tomato;
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue 100%, cyan 100%);
-    border-image-slice: 1;
-}
-footer{
 
-    width: 20px;
-    color: black;
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 0px;
 }
+
+.container div{
+    padding: 10px;
+    flex-basis: 30%;
+}
+.container .child1{
+
+    background:rgba(220, 230, 181, 0.493) ;
+}
+.container .child2{
+    background:rgba(255, 0, 119, 0.268)
+}
+.container .child3{
+    background:rgba(255, 225, 0, 0.255)
+}
+
