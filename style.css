@@ -21,7 +21,8 @@ section{
 }
 #people{
     text-align: center;
-    color: white ; 
+    color: white ;
+    font-size: 30px;
 }
 #help{
     font-size: 80px;
@@ -46,7 +47,7 @@ section{
 .para{
 text-align:center;
 padding: 0px;
-font-size: large;
+font-size:25px;
 }
 
 
@@ -225,7 +226,7 @@ footer{
     text-align: center;
 }
 #para1{
-    font-size: 20px;
+    font-size: 30px;
     color:white ;
     text-align: center;
 }
