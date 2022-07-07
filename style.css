@@ -95,14 +95,13 @@ padding: 0px;
     padding: 0px;
 }
 #button{
+    align-content: center;
     background: linear-gradient(45deg, rgb(240, 74, 9), rgb(252, 255, 71));
     padding: 20px 40px;
     border-radius:5px;
     color: white;
     font-weight: 100px;
     text-align:center;
-    
-    
 }
 .heading{
     text-align:center;
@@ -156,10 +155,29 @@ align-content: center;
     box-sizing: border-box;
     color: rgb(240, 119, 119);
 }
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 0px;
+}
+
+.service div{
+    padding: 10px;
+    flex-basis: 30%;
+}
+.service .child20{
+    background:rgba(236, 220, 229, 0.268);
+}
+.service .child21{
+    background:rgba(220, 236, 223, 0.268);
+}
+
 footer{
     background-color: black;
     height: 200px;
 }
+
 #Humble{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80px;
