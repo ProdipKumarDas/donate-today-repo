@@ -38,6 +38,7 @@ section{
     align-content: center;
 }
 .heading{
+    margin-top: 60px;
     text-align:center;
     font-size: 50px;
     padding: 0px;
@@ -45,6 +46,7 @@ section{
 .para{
 text-align:center;
 padding: 0px;
+font-size: large;
 }
 
 
@@ -85,23 +87,32 @@ padding: 0px;
 .container1 .child14{
     background:rgba(236, 220, 229, 0.268);
 }
-.amount{
-    align-content:center;
-  
-}
+
 #other{
     text-align:center;
-    font-size: 25px;
+    font-size: 30px;
     padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
-#button{
-    align-content: center;
-    background: linear-gradient(45deg, rgb(240, 74, 9), rgb(252, 255, 71));
-    padding: 20px 40px;
+
+
+a{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background-color: deeppink;
+    box-shadow:2px 2px lightgray;
     border-radius:5px;
+    border: 0;
     color: white;
-    font-weight: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
     text-align:center;
+
 }
 .heading{
     text-align:center;
@@ -110,7 +121,10 @@ padding: 0px;
 }
 .para{
 text-align:center;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 padding: 0px;
+margin-bottom:30px;
 }
 
 
@@ -140,20 +154,28 @@ padding: 0px;
 align-content: center;
     height: 200px;
     padding-left:5%;
-    background-color: hotpink;
+    background-color: rgb(236, 228, 160);
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 10px;
     
 }
 .mail{
-   vertical-align: middle; 
-    padding:20px 30px;
-    margin: 50px 0;
-    box-sizing: border-box;
+    text-align: center;
     color: rgb(240, 119, 119);
+    font-size: 80px;
+}
+input[type=email]{
+    font-size:1.5rem;
+    padding: .8em .8em;
+    text-align: center;
+}
+input[type=submit]{
+    font-size:1.5rem;
+    padding: .8em .8em;
+    background-color: rgb(240, 105, 132);
 }
 .service{
     display: flex;
@@ -172,7 +194,24 @@ align-content: center;
 .service .child21{
     background:rgba(220, 236, 223, 0.268);
 }
+#survive{
+    font-size: 40px;
+    text-decoration: none;
+    
+}
 
+.my-button{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background-color: deeppink;
+    box-shadow:5px lightgray;
+    border-radius:5px;
+    text-align: center;
+}
 footer{
     background-color: black;
     height: 200px;
@@ -181,7 +220,6 @@ footer{
 #Humble{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80px;
-    text-align: center;
     color: white ; 
     padding-bottom: 0px;
 }
